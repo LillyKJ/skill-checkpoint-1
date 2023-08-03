@@ -1,17 +1,19 @@
 import Navigator from "../component/Navbar"
-import Intro from "../component/Intro"
 import Passion from "../component/passion"
 import Portfolio from "../component/Portfolio"
 import Contact from "../component/Contact"
+import About from "../component/About"
+import Footer from "../component/Footer"
 
 function Homepage (){
     return (
         <div>
             <Navigator/>
-            <Intro/>
+            <About/>
             <Passion/>
             <Portfolio/>
             <Contact/>
+            <Footer/>
         </div>
     )
 }

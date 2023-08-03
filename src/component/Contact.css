@@ -1,0 +1,45 @@
+.Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 349px;
+  width: 100%;
+  margin-top: 168px;
+}
+
+.Topic-c {
+  text-align: center;
+}
+
+.Choices-c {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 120px;
+}
+
+.Box-c {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Box-c img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Box-c h1 {
+  color: #3f3d56;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.925px;
+  margin-top: 30px;
+}

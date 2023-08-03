@@ -1,0 +1,31 @@
+.Passion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 168px;
+}
+
+.Container-box {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 120px;
+}
+
+.Box {
+  width: 347px;
+  height: 349px;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
+}
+
+svg {
+  margin: 50px;
+}

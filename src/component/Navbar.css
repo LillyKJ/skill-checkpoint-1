@@ -1,0 +1,73 @@
+.Navbar {
+  display: flex;
+  width: 100%;
+  height: 84px;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 35px;
+  
+}
+
+.Logo {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+}
+
+.logo , h1 {
+  color: #002265;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5.125px;
+}
+
+.Tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 45px;
+  width: 675px;
+  height: 38px;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.Tab li::before {
+  content: none;
+}
+
+li {
+  color: #212121;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.375px;
+}
+
+button {
+  display: flex;
+  padding: 10px 18px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  border: transparent;
+  background: #608af5;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.375px;
+}
