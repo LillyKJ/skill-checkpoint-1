@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navigator() {
   return (
@@ -7,7 +8,7 @@ function Navigator() {
         <h1>Korakot J.</h1>
       </div>
       <ul className="Tab">
-        <li>About</li>
+        <Link to="/resume"><li>About</li></Link>
         <li>Passions</li>
         <li>Portfolio</li>
         <button>contact Me</button>
